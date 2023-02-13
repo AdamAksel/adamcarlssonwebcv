@@ -6,9 +6,9 @@ export const PortfolioContainer = styled.div`
   align-items: flex-start;
   flex: 1;
   max-width: 1200px;
-  gap: 1vw;
+  gap: 4vw;
   flex-direction: column;
-  @media only screen and (min-width: 1266px) {
+  @media only screen and (min-width: 1000px) {
     flex-direction: row;
   }
 `
@@ -18,22 +18,29 @@ export const PortfolioItem = styled.div`
   align-items: center;
   flex: 1;
   flex-direction: column;
-  min-width: 636px;
+  max-width: 45vw;
+  min-height: auto;
+  gap: 2vh;
+  background-color: #dfdfdf;
+  border-radius: 25px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
 
-  min-height: 440px;
-  @media only screen and (max-width: 636px) {
-    min-width: 360px;
-    min-height: 300px;
+  @media only screen and (max-width: 1000px) {
+    min-width: 95vw;
+    min-height: auto;
   }
 `
 
 export const PortfolioImage = styled.img`
-  max-height: 400px;
-  max-width: 636px;
+  max-width: 43vw;
+  min-height: auto;
 
-  @media only screen and (max-width: 636px) {
-    max-width: 360px;
-    max-height: 300px;
+  @media only screen and (max-width: 1000px) {
+    max-width: 95vw;
+    min-height: auto;
   }
 `
 

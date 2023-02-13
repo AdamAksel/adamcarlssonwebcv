@@ -9,21 +9,20 @@ import {
 
 const Portfolio = () => {
   return (
-    <>
-      <PortfolioContainer>
+    <PortfolioContainer>
+      <PortfolioLink href='https://adamaksel.github.io/CanvasGames/'>
         <PortfolioItem>
           <PortfolioImage src={CanvasGamesImg} />
-          <PortfolioLink>Canvas Games Site</PortfolioLink>
+          Canvas Games Site
         </PortfolioItem>
+      </PortfolioLink>
+      <PortfolioLink href='https://adamaksel.github.io/LearnKhmer/'>
         <PortfolioItem>
-          <PortfolioImage
-            href='https://adamaksel.github.io/LearnKhmer/'
-            src={LearnKhmerImg}
-          />
-          <PortfolioLink>Learn Khmer Study Buddy</PortfolioLink>
+          <PortfolioImage src={LearnKhmerImg} />
+          Learn Khmer Study Buddy
         </PortfolioItem>
-      </PortfolioContainer>
-    </>
+      </PortfolioLink>
+    </PortfolioContainer>
   )
 }
 
