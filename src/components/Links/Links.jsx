@@ -20,12 +20,6 @@ const Links = () => {
             <h3>Portfolio</h3>
           </LinksItem>
         </Link>
-
-        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/q&a'>
-          <LinksItem>
-            <h3>Q & A</h3>
-          </LinksItem>
-        </Link>
       </LinksArea>
     </>
   )

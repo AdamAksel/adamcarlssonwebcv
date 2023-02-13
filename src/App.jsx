@@ -7,7 +7,7 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 import './App.css'
-import { CV, Main, Portfolio, QandA } from './components'
+import { CV, Main, Portfolio } from './components'
 
 const StyledApp = styled.div``
 
@@ -15,7 +15,6 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Main />}>
       <Route index element={<CV />} />
-      <Route path='/q&a' element={<QandA />} />
       <Route path='/portfolio' element={<Portfolio />} />
     </Route>
   )

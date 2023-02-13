@@ -19,7 +19,7 @@ export const LinksItem = styled.div`
   justify-content: center;
   align-items: center;
   flex: 1;
-  min-width: 200px;
+  min-width: 300px;
   min-height: 100px;
   border-radius: 50%;
   background-color: #141c3a;
@@ -30,8 +30,5 @@ export const LinksItem = styled.div`
   &:hover {
     color: darkgray;
     box-shadow: 3px 0px 2px;
-  }
-  @media only screen and (max-width: 636px) {
-    min-width: 300px;
   }
 `
