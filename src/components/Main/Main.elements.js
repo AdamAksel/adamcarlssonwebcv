@@ -14,7 +14,7 @@ export const MainArea = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex: 1;
-  max-width: 1200px;
+
   margin-top: 5vh;
   flex-direction: column;
   @media only screen and (max-width: 636px) {

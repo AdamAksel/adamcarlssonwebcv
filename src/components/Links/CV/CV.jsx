@@ -60,7 +60,7 @@ const CV = () => {
           <CVItem>
             <CVTitle>Education</CVTitle>
             <CVText>
-              Swedish education system, but don't hold that against me, I also
+              Swedish education system, but don't hold that against me! I also
               complemented my lacking education afterwards by becomming an
               autodidact, much with the help of youtube. Unfortunately I learned
               mostly unmarketable skills like history, philosophy, and economic
@@ -71,11 +71,11 @@ const CV = () => {
             </CVText>
           </CVItem>
           <CVItem>
-            <CVTitle>Contact</CVTitle>
+            <CVTitle>Info & Contact</CVTitle>
             <CVText>
               <ul>
                 <li>Full Name: Adam Aksel Karlsson</li>
-                <li>Birth Date: 1987-04-04</li>
+                <li>Birthdate: 1987-04-04</li>
                 <li>Mobile: 070 0404992</li>
                 <li>Email: akseltheaustrian@gmail.com</li>
                 <li>

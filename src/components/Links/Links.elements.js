@@ -5,7 +5,7 @@ export const LinksArea = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex: 1;
-  max-width: 1200px;
+
   margin-top: 5vh;
   gap: 2vw;
   overflow: visible;
