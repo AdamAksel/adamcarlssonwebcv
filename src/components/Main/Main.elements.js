@@ -17,4 +17,7 @@ export const MainArea = styled.div`
   max-width: 1200px;
   margin-top: 5vh;
   flex-direction: column;
+  @media only screen and (max-width: 636px) {
+    margin-top: 2vh;
+  }
 `

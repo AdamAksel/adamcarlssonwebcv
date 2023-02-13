@@ -8,6 +8,9 @@ export const HeroArea = styled.div`
   flex-direction: column;
   gap: 3vh;
   margin-bottom: 5vh;
+  @media only screen and (max-width: 636px) {
+    margin-bottom: 0;
+  }
 `
 
 export const HeroImg = styled.img`

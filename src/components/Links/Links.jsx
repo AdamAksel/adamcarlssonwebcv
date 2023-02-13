@@ -6,7 +6,7 @@ const Links = () => {
   return (
     <>
       <LinksArea>
-        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/cv'>
+        <Link style={{ color: 'inherit', textDecoration: 'inherit' }} to='/'>
           <LinksItem>
             <h3>CV</h3>
           </LinksItem>

@@ -14,7 +14,7 @@ const StyledApp = styled.div``
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Main />}>
-      <Route path='/cv' element={<CV />} />
+      <Route index element={<CV />} />
       <Route path='/q&a' element={<QandA />} />
       <Route path='/portfolio' element={<Portfolio />} />
     </Route>

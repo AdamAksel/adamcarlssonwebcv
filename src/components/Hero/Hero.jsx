@@ -17,6 +17,7 @@ const Hero = () => {
                 setChangeImage(false)
               }}
               src={Avatar}
+              title="Don't Click!"
               alt='cartoon avatar of Adam Carlsson'
             />
           </>
@@ -27,6 +28,7 @@ const Hero = () => {
                 setChangeImage(true)
               }}
               src={RealImg}
+              title='Do Click!'
               alt='Photo of Adam Carlsson'
             />
           </>

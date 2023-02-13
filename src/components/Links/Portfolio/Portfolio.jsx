@@ -10,13 +10,19 @@ import {
 const Portfolio = () => {
   return (
     <PortfolioContainer>
-      <PortfolioLink href='https://adamaksel.github.io/CanvasGames/'>
+      <PortfolioLink
+        target='_blank'
+        href='https://adamaksel.github.io/CanvasGames/'
+      >
         <PortfolioItem>
           <PortfolioImage src={CanvasGamesImg} />
           Canvas Games Site
         </PortfolioItem>
       </PortfolioLink>
-      <PortfolioLink href='https://adamaksel.github.io/LearnKhmer/'>
+      <PortfolioLink
+        target='_blank'
+        href='https://adamaksel.github.io/LearnKhmer/'
+      >
         <PortfolioItem>
           <PortfolioImage src={LearnKhmerImg} />
           Learn Khmer Study Buddy
