@@ -17,7 +17,8 @@ export const QASide = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  min-width: 40vw;
+  min-width: 38vw;
+  max-width: 38vw;
   flex: 1;
   gap: 2vh;
   flex-direction: column;
@@ -38,6 +39,9 @@ export const QAItem = styled.div`
   border-left: 1px solid black;
   padding: 1vh;
   margin-left: 1vh;
+  @media only screen and (max-width: 636px) {
+    max-width: 87vw;
+  }
 `
 
 export const QAList = styled.ul`
@@ -46,8 +50,11 @@ export const QAList = styled.ul`
   justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: column;
-
+  width: 35vw;
   gap: 1vh;
+  @media only screen and (max-width: 636px) {
+    width: 85vw;
+  }
 `
 
 export const QALi = styled.li`

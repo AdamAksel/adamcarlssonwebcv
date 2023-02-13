@@ -17,6 +17,7 @@ export const CVSide = styled.div`
   justify-content: flex-start;
   align-items: center;
   min-width: 40vw;
+  max-width: 40vw;
   flex: 1;
   flex-direction: column;
   @media only screen and (max-width: 636px) {
@@ -32,6 +33,10 @@ export const CVItem = styled.div`
   flex-direction: column;
   min-height: 200px;
   min-width: 40vw;
+  max-width: 40vw;
+  @media only screen and (max-width: 636px) {
+    max-width: 89vw;
+  }
 `
 export const CVTitle = styled.div`
   display: flex;
@@ -40,6 +45,7 @@ export const CVTitle = styled.div`
   flex: 1;
   background-color: #141c3a;
   min-width: 40vw;
+  max-width: 40vw;
   min-height: 50px;
   max-height: 50px;
   color: whitesmoke;
