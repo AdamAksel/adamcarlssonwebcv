@@ -308,7 +308,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex: 1;
-  max-width: 1200px;
+  max-width: 90vw;
   gap: 4vw;
   flex-direction: column;
   @media only screen and (min-width: 1000px) {
@@ -320,7 +320,7 @@ body {
   align-items: center;
   flex: 1;
   flex-direction: column;
-  max-width: 45vw;
+  max-width: 43vw;
   min-height: auto;
   gap: 2vh;
   background-color: #dfdfdf;
