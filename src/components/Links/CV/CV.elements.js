@@ -4,7 +4,7 @@ export const CVArea = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 90vw;
+  max-width: 90vw;
   flex: 1;
   gap: 3vw;
   @media only screen and (max-width: 636px) {
