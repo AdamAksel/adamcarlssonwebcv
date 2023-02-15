@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainArea, MainContainer } from './Main.elements'
-import { Hero, Links, Nav } from '../index'
-import { Outlet } from 'react-router-dom'
+import { Hero, Links, Nav, CV, Portfolio } from '../index'
+import { Routes, Route } from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -13,7 +13,10 @@ const Main = () => {
           <Links />
         </MainArea>
         <MainArea>
-          <Outlet />
+          <Routes>
+            <Route index element={<CV />} />
+            <Route exact path='/portfolio' element={<Portfolio />} />
+          </Routes>
         </MainArea>
       </MainContainer>
     </>

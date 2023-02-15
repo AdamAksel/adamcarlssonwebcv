@@ -1,31 +1,19 @@
 import styled from 'styled-components'
 import { GlobalStyle } from './globalstyles'
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import './App.css'
-import { CV, Main, Portfolio } from './components'
+import { Main } from './components'
 
 const StyledApp = styled.div``
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path='/' element={<Main />}>
-      <Route index element={<CV />} />
-      <Route path='/portfolio' element={<Portfolio />} />
-    </Route>
-  )
-)
 
 function App() {
   return (
     <>
       <StyledApp>
         <GlobalStyle />
-        <RouterProvider router={router} />
+        <Router>
+          <Main />
+        </Router>
       </StyledApp>
     </>
   )
