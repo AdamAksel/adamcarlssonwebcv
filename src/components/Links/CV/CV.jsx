@@ -60,14 +60,21 @@ const CV = () => {
           <CVItem>
             <CVTitle>Education</CVTitle>
             <CVText>
-              Swedish education system, but don't hold that against me! I also
-              complemented my lacking education afterwards by becomming an
-              autodidact, much with the help of youtube. Unfortunately I learned
-              mostly unmarketable skills like history, philosophy, and economic
-              theory. Should you ever need a synopsis of the european wars of
-              religion I'm your guy! Also, some courses in history and sociology
-              at Malmö University, wasted time, but at least got to read some
-              books.
+              <ul>
+                <li>Swedish Elementary </li>
+                <li>Swedish Highschool</li>
+                <li>Swedish University (with no degree)</li>
+                <li>
+                  {' '}
+                  I was never a very good student in either of the three.
+                </li>
+                <li>
+                  Later, I studied on my own time but learned unmarketable
+                  skills like economic theory or the history of europe. While
+                  both fun and educational, there is a reason I am now learning
+                  programming.
+                </li>
+              </ul>
             </CVText>
           </CVItem>
           <CVItem>
